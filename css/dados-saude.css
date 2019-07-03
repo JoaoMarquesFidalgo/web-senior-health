@@ -1,0 +1,28 @@
+
+input{
+    width: 200px;
+}
+table td  input {
+    margin-bottom:10px;
+}
+
+.label_class{
+    margin-left: -15px;
+    font-weight:normal
+}
+
+#aparece_ao_conf{
+    display:none;
+}
+
+#btnReset{
+    margin-left:12px;
+    width:10%;
+}
+
+#btnSubmit{
+    width:10%;
+}
+.form-control{
+    width:150%;
+}

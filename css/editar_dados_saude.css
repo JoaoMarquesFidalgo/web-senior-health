@@ -1,0 +1,20 @@
+.opc_tit{
+     vertical-align: top;
+}
+
+#conteudo_direita{
+    margin-left:-20px;
+}
+
+#para_a_esq{
+    left:-10px
+}
+
+.checkboxes{
+    display: inline; 
+    padding-right: 15px;
+}
+
+#tabela3 > .form-control{
+    width: 50px;
+}

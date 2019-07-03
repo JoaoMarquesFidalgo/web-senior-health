@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Josefin+Sans|Quicksand');
+
+/*
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Comfortaa', cursive;
+*/
+
+fieldset.scheduler-border {
+	border: 1px groove #ddd !important;
+	padding: 0 1.4em 1.4em 1.4em !important;
+	margin: 0 0 1.5em 0 !important;
+	-webkit-box-shadow: 0px 0px 0px 0px #000;
+	box-shadow: 0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+	font-size: 1.2em !important;
+	font-weight: bold !important;
+	text-align: left !important;
+	width: auto;
+	padding: 0 10px;
+	border-bottom: none;
+	background-color: #3ec9e0;
+	color: white;
+	padding: 3px 10px;
+	border-radius: 3px
+}
+
+
+/* Estilização customizada da aplicação (by Dante) */
+
+body {
+	display: block;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #5bc0de;
+}
+
+
+/* ****************************************
+					SEARCH
+* *****************************************/
+
+.sidebar .sidebar-search {
+	padding: 15px;
+	display: none;
+}
+
+
+/* ****************************************
+					LOGO
+* *****************************************/
+
+.navbar-brand {
+	padding: 0px;
+	margin: -10px;
+}
+
+.navbar-brand>img {
+	height: 100%;
+	padding: 7px;
+	padding-left: 4px;
+	width: auto;
+	margin: 11px;
+}
+
+
+/* ****************************************
+					MENU
+* *****************************************/
+
+.navbar-default {
+	background-color: #5bc0de;
+	/*#00c6ce;*/
+	border-color: #5bc0de;
+	color: black;
+}
+
+#wrapper>.navbar-top-links li a,
+.nav>li>a {
+	font-family: 'Comfortaa', cursive;
+	color: white;
+}
+
+.navbar-top-links li a:hover,
+.nav>li>a:hover {
+	background-color: rgba(87, 184, 212, 0.96);
+}
+
+li.active>a,
+li a.active {
+	/*background-color: #691723 !important;*/
+	background-color: rgba(87, 184, 212, 0.96) !important;
+}
+
+li a.active {
+	background-color: rgba(87, 184, 212, 0.96) !important;
+	/*background-color: #691723 !important; */
+	/*vermelho*/
+}
+
+
+/* cor do submenu */
+
+.sidebar li.active ul li a,
+.sidebar li ul li a {
+	font-size: 0.8em;
+	background-color: rgba(75, 158, 181, 0.96) !important;
+}
+
+.sidebar li.active ul li a:hover {
+	background-color: rgba(27, 76, 90, 0.99) !important;
+}
+
+
+/* cor do submenu ativo */
+
+.sidebar li ul li a.active {
+	font-size: 0.8em;
+	background-color: rgba(70, 141, 160, 0.96) !important;
+}
+
+.sidebar li ul li a i {
+	color: rgb(224, 224, 224);
+}
+
+
+/* borda bottom do menu lateral */
+
+.sidebar ul li {
+	border-bottom: 1px solid rgba(87, 184, 212, 0.96);
+}
+
+.navbar-top-links .dropdown-menu li a:hover {
+	background-color: rgba(0, 198, 206, 0.05);
+}
+
+.nivel-esltilizado {
+	/*background-color: red !important;*/
+}
+
+
+/* icons */
+
+.fa-fw {
+	font-size: 16px;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+
+/* fundo top menu open (clicado) */
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+	background-color: #51a6bf;
+	border-color: #337ab7;
+}
+
+
+/* ****************************************
+				TIMELINE (início)
+* *****************************************/
+
+@media (max-width: 2048px) {
+	ul.timeline:before {
+		left: 40px;
+	}
+}
+
+ul.timeline>li>.timeline-panel {
+	float: right;
+	width: 68%;
+}
+
+@media (max-width: 767px) {
+	/* antes era 767px */
+	/*sb-admin-2.css:420*/
+	ul.timeline>li>.timeline-panel {
+		float: right;
+		width: 64%;
+	}
+}
+
+
+/* bolinha verde do "Resumo de atividades da conta" */
+
+.timeline>li:first-child>.timeline-badge {
+	background-color: #3ec124 !important;
+	z-index: 100;
+	position: absolute;
+	top: 16px;
+	left: 15% !important;
+	width: 50px;
+	height: 50px;
+	margin-left: -25px;
+	border-radius: 50% 50% 50% 50%;
+	text-align: center;
+	font-size: 1.4em;
+	line-height: 50px;
+	color: #fff;
+}
+
+.timeline>li>.timeline-badge {
+	z-index: 100;
+	position: absolute;
+	top: 16px;
+	left: 15% !important;
+	width: 50px;
+	height: 50px;
+	margin-left: -25px;
+	border-radius: 50% 50% 50% 50%;
+	text-align: center;
+	font-size: 1.4em;
+	line-height: 50px;
+	color: #fff;
+}
+
+body {
+	padding-right: 0 !important
+}
+
+button {
+	text-transform: uppercase;
+}
+
+.sem-borda {
+	border: none;
+}
+
+.menu {
+	max-height: 200px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	overflow-x: hidden;
+	max-width: 300px;
+}
+
+ul.dropdown-menu {
+	overflow: hidden !important;
+}
+
+.menu>li>a {
+	display: block;
+	white-space: nowrap !important;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+li.header {
+	padding-left: 15px;
+}

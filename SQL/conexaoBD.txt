@@ -1,0 +1,25 @@
+Adicionado por Rita Santos há 5 dias atrás
+
+Caros alunos, bom dia.
+
+Seguem os dados para disponibilizar a base de dados e o site no servidor. Por favor testem as ligações e informem-me se houver algum problema para que o possa corrigir.
+O servidor tem o composer e o git disponíveis. 
+As contas e passwords para acesso à base de dados e à área no servidor são iguais.
+
+Grupo 1:
+
+Servidor: estga-dev.clients.ua.pt
+Conta: ptaw-gr1-2017
+Password: H33!6j8Z
+
+Endereço web da conta: http://estga-dev.clients.ua.pt/~ptaw-gr1-2017
+Acesso à área no servidor feita por ssh
+
+Base de dados: MySQL
+Acesso à base de dados efetuado por TCP/IP sobre SSH (podem utilizar o MySQL Workbench)
+Nome da BD: ptaw-gr1-2017
+
+Penso que ainda não me enviaram a distribuição de tarefas pelos elementos do grupo, conforme combinado no final da reunião.
+
+Cumprimentos,
+Rita Santos

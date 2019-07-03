@@ -1,0 +1,36 @@
+-----------------------------------------------------------
+Versões das senhas (adicionar a versão encriptada para um novo admin)
+-----------------------------------------------------------
+SENHA NORMAL		SENHA ENCRIPTADA
+123			a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3
+
+-----------------------------------------------------------
+Ordem das operacoes no Git
+-----------------------------------------------------------
+tash
+pull
+pop
+commit
+push
+
+
+-----------------------------------------------------------
+Orientações
+-----------------------------------------------------------
+Esta é a pasta raiz do nosso site.
+
+O arquivo index.html é o ponto de partida, mas é o front page.
+
+Nesta pasta foram mesclados dois templates Bootstrap:
+- SB Admin 2
+- New Age
+
+-----------------------------------------------------------
+Alguns padrões utilizados (anotar aqui)
+-----------------------------------------------------------
+Cor azul utilizada: #3ec9e0
+
+-----------------------------------------------------------
+Links
+-----------------------------------------------------------
+http://fontawesome.io/icons/#medical

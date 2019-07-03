@@ -1,0 +1,9 @@
+.divDestaque {
+	padding-top: 15px;
+	border-radius: 15px;
+	background-color: lightgray;
+}
+
+.row {
+	margin-top: 25px;
+}

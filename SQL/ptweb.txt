@@ -1,0 +1,4 @@
+http://www.techrepublic.com/blog/smb-technologist/import-and-export-databases-using-phpmyadmin/
+
+para importar a bd no phpmyadmin
+nota: ja tem primary key e foreign key
